@@ -14,7 +14,7 @@ def register_number():
 
 @app.route("/department")
 def department():
-    return "IT(Information Technology)"
+    return "IT(Information Technology) "
 
 if __name__ == "__main__":
     app.run(debug =True)

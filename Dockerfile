@@ -8,6 +8,6 @@ RUN pip install --no-cache-dir flask
 
 EXPOSE 5000
 
-ENV FLASK_APP=ml-model.py
+ENV FLASK_APP=personal-api.py
 
 CMD ["flask","run","--host=0.0.0.0"]
